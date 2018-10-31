@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c_Cadastro_Email_Rodar">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/b_Cadastro_Email_Nome_Xml"
+            android:hint="Nome:"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/b_Cadastro_Email_Email_Xml"
+            android:hint="Email:"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/b_Cadastro_Email_Senha1_Xml"
+            android:hint="Senha:"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/b_Cadastro_Email_Senha2_Xml"
+            android:hint="Digite Novamente Sua Senha:"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/b_Cadastro_Email_Cadastrar_Xml"
+            android:text="Cadastrar"
+            android:onClick="b_Cadastro_Email_Cadastrar_Xml"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="A senha deve ter no mínimo 6 caracteres" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

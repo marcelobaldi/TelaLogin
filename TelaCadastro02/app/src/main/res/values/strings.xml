@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pizzaria Unit</string>
+    <string name="facebook_app_id">1838929833074924</string>
+    <string name="fb_login_protocol_scheme">fb1838929833074924</string>
+</resources>

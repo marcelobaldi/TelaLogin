@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/c_Cadastro_End_Cep_Xml"
+            android:hint="CEP:"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/c_Cadastro_End_BuscarCep_XML"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buscar Endereço Pelo CEP"
+            android:onClick="c_Cadastro_End_BuscarCep_XML"/>
+
+        <EditText
+            android:id="@+id/c_Cadastro_End_Rua_Xml"
+            android:hint="Rua:"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/c_Cadastro_End_Numero_Xml"
+            android:hint="N°:"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/c_Cadastro_End_Complemento_Xml"
+            android:hint="Complemento:"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/c_Cadastro_End_Bairro_Xml"
+            android:hint="Bairro:"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <EditText
+            android:id="@+id/c_Cadastro_End_Cidade_Xml"
+            android:hint="Cidade:"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/c_Cadastro_End_Estado_Xml"
+            android:hint="Estado:"
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/c_Cadastro_End_Cadastro_Xml"
+            android:text="Cadastrar"
+            android:onClick="c_Cadastro_End_Cadastro_Xml"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

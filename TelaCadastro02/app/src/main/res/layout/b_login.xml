@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".b_Login_Email_Rodar">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/NA1"
+            android:text="Entrar com E-Mail e Senha"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="5sp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/a_login_Email_Xml"
+            android:hint="Digite seu e-mail"
+            android:inputType="textPersonName"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/a_login_Senha_Xml"
+            android:hint="Digite sua senha"
+            android:inputType="textPersonName"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/a_login_Entrar_Xml"
+            android:text="Entrar"
+            android:onClick="a_login_Entrar_Xml"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Esqueceu a Senha?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230sp"
+            android:textStyle="italic"
+            android:layout_marginLeft="10sp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/senhaCliqueAquiXml"
+            android:text="(Clique Aqui!)"
+            android:onClick="senhaCliqueAquiXml"
+            android:textColor="@color/Azul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230sp"
+            android:layout_marginLeft="5sp"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Não tem Cadastro?"
+            android:textStyle="italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="370sp"
+            android:layout_marginLeft="70dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/cadastroCliqueAquiXml"
+            android:text="(Clique Aqui!)"
+            android:onClick="a_login_Cadastrar_Xml"
+            android:textColor="@color/Azul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="370sp"
+            android:layout_marginLeft="5sp"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+
+    <!--
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:text="Entrar com Facebook"
+               android:textStyle="bold"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="70sp"
+               android:layout_marginLeft="5sp"
+               android:textSize="16sp" />
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <TextView
+                   android:text="Esqueceu a Senha?"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="80sp"
+                   android:layout_marginLeft="5sp"
+                   android:textSize="16sp" />
+
+               <TextView
+                   android:id="@+id/senhaCliqueAquiXml"
+                   android:text="(Clique Aqui!)"
+                   android:onClick="senhaCliqueAquiXml"
+                   android:textColor="@color/Azul"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="80sp"
+                   android:layout_marginLeft="5sp"
+                   android:textSize="16sp" />
+           </LinearLayout>
+
+       </LinearLayout>-->
+
+</android.support.constraint.ConstraintLayout>

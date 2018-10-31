@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "962777784435",
+    "firebase_url": "https://telacadastro02.firebaseio.com",
+    "project_id": "telacadastro02",
+    "storage_bucket": "telacadastro02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962777784435:android:c99abec112fe5308",
+        "android_client_info": {
+          "package_name": "com.example.tela_cadastro02"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962777784435-uuqubrpemiabf69d1aigurtn44103ip9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tela_cadastro02",
+            "certificate_hash": "29fe3733c8de686c0c60c292396bd22d78864159"
+          }
+        },
+        {
+          "client_id": "962777784435-004l75grccpdnhs2fftqp9eva7soun9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUYVFQZbkpES-k0TWReRWTpDPgitMgsAk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962777784435-004l75grccpdnhs2fftqp9eva7soun9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
